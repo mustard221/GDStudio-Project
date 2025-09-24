@@ -1,1 +1,1 @@
-# GDStudio-Project
+# Game Development Studio Class Project
