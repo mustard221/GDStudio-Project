@@ -394,6 +394,7 @@
 "Assets/Scripts/InCameraDetector1.cs"
 "Assets/Scripts/InCameraDetector2.cs"
 "Assets/Scripts/Jumpscare.cs"
+"Assets/Scripts/MonsterSpawn.cs"
 "Assets/Scripts/Pickup.cs"
 -langversion:9.0
 

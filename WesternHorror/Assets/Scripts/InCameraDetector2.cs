@@ -20,8 +20,6 @@ public class InCameraDetector2 : MonoBehaviour
         camera = Camera.main;
         renderer = GetComponent<MeshRenderer>();
         collider = GetComponent<Collider>();
-
-        Invoke("void Update", 3);
     }
 
 
