@@ -5,7 +5,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD:test stuff/Library/PackageManager/ProjectCache
       ticks: 638959676300607389
+=======
+      ticks: 638959776568742528
+>>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/Library/PackageManager/ProjectCache
     m_Hash: 3163782642
   m_LockFileStatus:
     m_FilePath: C:/Users/laimr/OneDrive/Belgeler/GitHub/GDStudio-Project/test stuff/Packages/packages-lock.json
@@ -13,7 +17,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD:test stuff/Library/PackageManager/ProjectCache
       ticks: 638959676300607389
+=======
+      ticks: 638959776568742528
+>>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/Library/PackageManager/ProjectCache
     m_Hash: 1954342874
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
