@@ -14,8 +14,14 @@ public class MonsterSpawn : MonoBehaviour
         Invoke("SpawnDelay", 3);
     }
 
-   private void SpawnDelay()
+    private void SpawnDelay()
     {
         monster.SetActive(true);
+    }
+
+    public static void UpdateSpawnInterval(int itemCount)
+    {
+        float interval = Mathf.Max(5f, 30f - itemCount * 5f); // interval of 5s
+        Debug.Log($"Monster spawn interval updated: {interval} seconds (Items collected: {itemCount})"); // logging if updating correctly
     }
 }

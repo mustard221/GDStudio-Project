@@ -8,14 +8,18 @@ public class Pickup : MonoBehaviour
     public UnityEvent enteredTrigger, exitedTrigger, interacted;
 
     private bool insideTrigger;
+    private static int collectedItemCount = 0; // track collected items
 
     void Update()
     {
-           if(insideTrigger && Input.GetKeyDown(KeyCode.E))
+        if (insideTrigger && Input.GetKeyDown(KeyCode.E))
         {
             interacted?.Invoke();
             exitedTrigger.Invoke();
             insideTrigger = false;
+
+            collectedItemCount++;
+            MonsterSpawn.UpdateSpawnInterval(collectedItemCount); // notify spawner
         }
     }
 
@@ -36,4 +40,3 @@ public class Pickup : MonoBehaviour
         }
     }
 }
-    

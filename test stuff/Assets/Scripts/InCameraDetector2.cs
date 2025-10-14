@@ -33,9 +33,9 @@ public class InCameraDetector2 : MonoBehaviour
             enteredTrigger.Invoke();
             insideTrigger = true;
         }
-        else
+       /* else
         {
             print("POO");
-        }
+        } */
     }
 }
