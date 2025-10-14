@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1474.5599
     height: 784.89594
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,11 +119,15 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD:test stuff/UserSettings/Layouts/default-2023.dwlt
   controlID: 102
 =======
   controlID: 39
 >>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+=======
+  controlID: 96
+>>>>>>> 1cf3cbea31edd39b65814d92c06a579019103419
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +152,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 57
+  controlID: 40
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 58
+  controlID: 41
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -521,6 +525,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:test stuff/UserSettings/Layouts/default-2023.dwlt
       m_SelectedIDs: 10e30000
       m_LastClickedID: 58128
@@ -530,6 +535,11 @@ MonoBehaviour:
       m_LastClickedID: 31634
       m_ExpandedIDs: c4faffff807b0000927b0000f47b0000
 >>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+=======
+      m_SelectedIDs: 9c7f0000
+      m_LastClickedID: 32668
+      m_ExpandedIDs: 9ce6ffff20f8ffffacfaffff
+>>>>>>> 1cf3cbea31edd39b65814d92c06a579019103419
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1112,6 +1122,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD:test stuff/UserSettings/Layouts/default-2023.dwlt
     m_Target: {x: 29.433895, y: -2.5434191, z: 61.261444}
     speed: 2
@@ -1121,6 +1132,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 22.154165, y: 46.06327, z: -71.206215}
 >>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+=======
+    m_Target: {x: 12.090007, y: -1.3379834, z: 65.2982}
+    speed: 2
+    m_Value: {x: 12.090007, y: -1.3379834, z: 65.2982}
+>>>>>>> 1cf3cbea31edd39b65814d92c06a579019103419
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1166,13 +1182,18 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
 <<<<<<< HEAD:test stuff/UserSettings/Layouts/default-2023.dwlt
     m_Target: {x: -0.13490984, y: 0.7425751, z: -0.1570421, w: -0.6372756}
+=======
+    m_Target: {x: -0.11139614, y: 0.7326922, z: -0.12345725, w: -0.66023695}
+>>>>>>> 1cf3cbea31edd39b65814d92c06a579019103419
     speed: 2
-    m_Value: {x: -0.13433938, y: 0.7446239, z: -0.15747584, w: -0.6345783}
+    m_Value: {x: -0.110946536, y: 0.7348221, z: -0.12381665, w: -0.6575688}
   m_Size:
-    m_Target: 18.720179
+    m_Target: 20.401506
     speed: 2
+<<<<<<< HEAD
     m_Value: 18.720179
 =======
     m_Target: {x: 0.13047208, y: 0.2927514, z: -0.04035975, w: 0.94638526}
@@ -1183,6 +1204,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 30.443485
 >>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+=======
+    m_Value: 19.522972
+>>>>>>> 1cf3cbea31edd39b65814d92c06a579019103419
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1279,6 +1303,7 @@ MonoBehaviour:
   m_FolderTreeState:
 <<<<<<< HEAD:test stuff/UserSettings/Layouts/default-2023.dwlt
     scrollPos: {x: 0, y: 52.503967}
+<<<<<<< HEAD
     m_SelectedIDs: 548a0000
     m_LastClickedID: 35412
     m_ExpandedIDs: 00000000e089000000ca9a3b
@@ -1288,6 +1313,11 @@ MonoBehaviour:
     m_LastClickedID: 32040
     m_ExpandedIDs: 00000000d27c000000ca9a3bffffff7f
 >>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+=======
+    m_SelectedIDs: 207d0000
+    m_LastClickedID: 32032
+    m_ExpandedIDs: 00000000c47c000000ca9a3b
+>>>>>>> 1cf3cbea31edd39b65814d92c06a579019103419
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1316,11 +1346,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD:test stuff/UserSettings/Layouts/default-2023.dwlt
     m_ExpandedIDs: 00000000e0890000
 =======
     m_ExpandedIDs: 00000000d27c0000
 >>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+=======
+    m_ExpandedIDs: 00000000c47c0000
+>>>>>>> 1cf3cbea31edd39b65814d92c06a579019103419
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1348,7 +1382,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000baac00006acb0000c2de0000fed10000ead1000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
