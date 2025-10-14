@@ -98,7 +98,6 @@ public class Character2 : MonoBehaviour
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
-
         jumpMeter.SetHealth(currentHealth);
 
         if (currentHealth <= 0)
@@ -109,4 +108,3 @@ public class Character2 : MonoBehaviour
         }
     }
 }
-   

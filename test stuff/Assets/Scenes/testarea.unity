@@ -410,6 +410,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 242098853}
+  cameraTransf: {fileID: 603645678}
+  enemyTransf: {fileID: 1755858016}
+  dirLimit: 15
 --- !u!1 &444821880
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,7 +920,7 @@ MonoBehaviour:
   lookXLimit: 45
   canMove: 1
   maxHealth: 100
-  currentHealth: 0
+  currentHealth: 100
   jumpMeter: {fileID: 242098854}
 --- !u!1 &695544376
 GameObject:
