@@ -40655,13 +40655,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD:test stuff/Library/Bee/1900b0aE.dag.json
       "PayloadOffset": 1795679,
-      "PayloadLength": 36779,
-=======
-      "PayloadOffset": 1790019,
       "PayloadLength": 36843,
->>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/Library/Bee/1900b0aE.dag.json
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "InputFlags": [],
@@ -40677,11 +40672,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< HEAD:test stuff/Library/Bee/1900b0aE.dag.json
-      "PayloadOffset": 1832545,
-=======
-      "PayloadOffset": 1826949,
->>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/Library/Bee/1900b0aE.dag.json
+      "PayloadOffset": 1832609,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -41583,11 +41574,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD:test stuff/Library/Bee/1900b0aE.dag.json
-      "PayloadOffset": 1832641,
-=======
-      "PayloadOffset": 1827045,
->>>>>>> 84633c5d3b7e0f544aa9da7e076fc2615eb84d0a:WesternHorror/Library/Bee/1900b0aE.dag.json
+      "PayloadOffset": 1832705,
       "PayloadLength": 11881,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
