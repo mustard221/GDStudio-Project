@@ -32,7 +32,7 @@ public class MonsterSpawn : MonoBehaviour
         Vector3 spawnPos = playerPos + spawnOffset; // taking player position + offset to generate spawn location
         monster.transform.position = spawnPos; 
          
-        Vector3 lookTarget = new Vector3(playerPos.x, 0, playerPos.z); // monster faces player
+        Vector3 lookTarget = new Vector3(playerPos.x, spawnPos.y, playerPos.z); // monster faces player
         monster.transform.LookAt(lookTarget);
 
         monster.SetActive(true);

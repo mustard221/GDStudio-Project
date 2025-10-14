@@ -226,11 +226,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27116148}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.75, y: -1.75, z: -19.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1755858016}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &152637761
@@ -411,9 +412,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 242098853}
+  jumpscare: {fileID: 1354722229}
   cameraTransf: {fileID: 603645678}
   enemyTransf: {fileID: 1755858016}
   dirLimit: 15
+  onHealthZero:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1354722229}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &444821880
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +445,7 @@ GameObject:
   - component: {fileID: 444821882}
   - component: {fileID: 444821881}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -527,8 +544,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444821880}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.14, y: 0, z: 5.6}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -914,7 +931,7 @@ MonoBehaviour:
         m_CallState: 2
   playerCamera: {fileID: 993511741}
   walkSpeed: 3
-  runSpeed: 3
+  runSpeed: 6
   jumpPower: 7
   gravity: 10
   lookSpeed: 2
@@ -1616,12 +1633,12 @@ GameObject:
   - component: {fileID: 1354722231}
   - component: {fileID: 1354722235}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: jumpscare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1354722231
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1703,12 +1720,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354722229}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.38, y: -1.68, z: -3.03}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.3, y: -1.68, z: 2.6000004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1755858016}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1354722235
 MonoBehaviour:
@@ -1852,12 +1869,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755858012}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.75, y: 0, z: -19.22}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.75, y: 1.75, z: 7.8199997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
+  m_Children:
+  - {fileID: 1354722234}
+  m_Father: {fileID: 27116150}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1755858017
 AudioSource:
@@ -2198,8 +2216,6 @@ SceneRoots:
   - {fileID: 1278429686}
   - {fileID: 1947169123}
   - {fileID: 879810336}
+  - {fileID: 27116150}
   - {fileID: 444821885}
   - {fileID: 745409318}
-  - {fileID: 1354722234}
-  - {fileID: 1755858016}
-  - {fileID: 27116150}

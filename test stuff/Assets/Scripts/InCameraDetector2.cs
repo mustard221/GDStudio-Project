@@ -30,12 +30,17 @@ public class InCameraDetector2 : MonoBehaviour
         cameraFrustum = GeometryUtility.CalculateFrustumPlanes(camera);
         if (GeometryUtility.TestPlanesAABB(cameraFrustum, bounds))
         {
-            enteredTrigger.Invoke();
-            insideTrigger = true;
+            TriggerEntered();
         }
        /* else
         {
             print("POO");
         } */
+    }
+
+    public void TriggerEntered()
+    {
+        enteredTrigger.Invoke();
+        insideTrigger = true;
     }
 }
