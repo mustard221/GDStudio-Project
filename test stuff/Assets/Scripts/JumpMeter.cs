@@ -13,20 +13,23 @@ public class JumpMeter : MonoBehaviour
     public UnityEvent onHealthZero;
 
     private Coroutine draining;
+    private Coroutine filling;
 
     private void Update()
     {
         if (IsFacingEnemy())
         {
             if (draining == null)
-                draining = StartCoroutine(Draining());
+            draining = StartCoroutine(Draining());
+            StopCoroutine(Filling());
         }
         else
         {
             if (draining != null)
             {
-                StopCoroutine(draining);
+                StopCoroutine(Draining());
                 draining = null;
+                StartCoroutine(Filling());
             }
         }
     }
@@ -40,7 +43,7 @@ public class JumpMeter : MonoBehaviour
             return false;
 
         Vector3 enemyDist = (enemyTransf.position - cameraTransf.position).normalized;
-        float angle = Vector3.Angle(cameraTransf.forward, enemyDist);
+        float angle = Vector3.Angle(cameraTransf.forward, enemyDist); //calculating if camera is facing enemy
         return angle < dirLimit; 
     }
 
@@ -50,8 +53,19 @@ public class JumpMeter : MonoBehaviour
         {
             Debug.Log("looking at enemy");
             SetHealth((int)slider.value - 1);
-            yield return new WaitForSeconds(0.1f);    
+            yield return new WaitForSeconds(0.05f);    
         }
+        draining = null;
+    }
+    private IEnumerator Filling() //working on bar fill when looking away from enemy
+    {
+        if (!IsFacingEnemy() && slider.value > 0)
+        {
+            Debug.Log("looking away from enemy");
+            SetHealth((int)slider.value + 1);
+            yield return new WaitForSeconds(0.05f);
+        }
+
         draining = null;
     }
 
