@@ -57,16 +57,15 @@ public class JumpMeter : MonoBehaviour
         }
         draining = null;
     }
-    private IEnumerator Filling() //working on bar fill when looking away from enemy
+    private IEnumerator Filling() // working on bar fill when looking away from enemy
     {
-        if (!IsFacingEnemy() && slider.value > 0)
+        while (!IsFacingEnemy() && slider.value < 100)
         {
             Debug.Log("looking away from enemy");
             SetHealth((int)slider.value + 1);
             yield return new WaitForSeconds(0.05f);
         }
-
-        draining = null;
+        filling = null;
     }
 
     public void SetMaxHealth(int health)

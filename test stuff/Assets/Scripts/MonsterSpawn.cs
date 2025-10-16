@@ -40,7 +40,8 @@ public class MonsterSpawn : MonoBehaviour
 
     public static void UpdateSpawnInterval(int itemCount)
     {
-        float interval = Mathf.Max(5f, 30f - itemCount * 5f);
-        Debug.Log($"Monster spawn interval updated: {interval} seconds (Items collected: {itemCount})");
+        float interval = Mathf.Max(5f, itemCount * 5f); // getting interval value by updating items amount * seconds subtracted
+        Debug.Log($"monster spawn interval updated to {interval} seconds. " +
+            $"items collected: {itemCount})");
     }
 }
