@@ -911,7 +911,11 @@ MonoBehaviour:
   playerCamera: {fileID: 993511741}
   walkSpeed: 3
   runSpeed: 3
+<<<<<<< Updated upstream:WesternHorror/Assets/Scenes/testarea.unity
   jumpPower: 7
+=======
+  jumpPower: 5
+>>>>>>> Stashed changes:test stuff/Assets/Scenes/testarea.unity
   gravity: 10
   lookSpeed: 2
   lookXLimit: 45
