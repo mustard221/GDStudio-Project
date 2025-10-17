@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638959776568742528
+      ticks: 638962959538717184
     m_Hash: 3163782642
   m_LockFileStatus:
     m_FilePath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/WesternHorror/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638959776568742528
+      ticks: 638962959538749426
     m_Hash: 1954342874
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
