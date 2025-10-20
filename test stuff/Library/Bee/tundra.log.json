@@ -396,6 +396,7 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp","enqueuedNodeIndex":333,"enqueueingNodeAnnotation":"MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm","enqueueingNodeIndex":334}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","enqueuedNodeIndex":396,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":6}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 {"msg":"inputSignatureChanged","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt","index":1,"changes":[{"key":"WriteFilePayload","value":"C:\\Users\\jessi\\Documents\\GitHub\\CowboyHorror\\GDStudio-Project\\test stuff","oldvalue":null}]}
 {"msg":"inputSignatureChanged","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt","index":118,"changes":[{"key":"WriteFilePayload","value":"C:\\Users\\jessi\\Documents\\GitHub\\CowboyHorror\\GDStudio-Project\\test stuff","oldvalue":null}]}
 {"msg":"inputSignatureChanged","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2","index":120,"changes":[{"key":"WriteFilePayload","value":"/pathmap:\"C:\\Users\\jessi\\Documents\\GitHub\\CowboyHorror\\GDStudio-Project\\test stuff\"=.","oldvalue":null}]}
@@ -1120,6 +1121,8 @@
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","displayName":"Copying Assembly-CSharp.dll","index":395}
 {"msg":"noderesult","processed_node_count":394,"number_of_nodes_ever_queued":396,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":395,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.dll"}
 =======
+=======
+>>>>>>> Stashed changes
 {"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_074D02846933EB28.mvfrm","index":109}
 {"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_5B1D5C66095EEAFB.mvfrm","index":110}
 {"msg":"newNode","annotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_D9C09952081D491D.mvfrm","index":113}
@@ -2307,4 +2310,7 @@
 {"msg":"noderesult","processed_node_count":394,"number_of_nodes_ever_queued":396,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":395,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.dll"}
 {"msg":"newNode","annotation":"ScriptAssemblies","index":6}
 {"msg":"runNodeAction","annotation":"ScriptAssemblies","index":6}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
