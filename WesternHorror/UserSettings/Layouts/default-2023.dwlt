@@ -23,7 +23,11 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
   m_Title: Project
+=======
+  m_Title: Scene
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
   m_Title: Scene
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -139,9 +143,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
   controlID: 95
 =======
   controlID: 152
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+  controlID: 37
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
   controlID: 37
@@ -175,9 +183,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     width: 961.3333
 =======
     width: 1027.3334
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    width: 1008.6667
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     width: 1008.6667
@@ -196,9 +208,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
   controlID: 50
 =======
   controlID: 41
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+  controlID: 38
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
   controlID: 38
@@ -232,6 +248,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     width: 961.3333
     height: 408.66666
   m_MinSize: {x: 200, y: 50}
@@ -245,6 +262,14 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 42
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    width: 1008.6667
+    height: 368.66666
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 39
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     width: 1008.6667
@@ -291,6 +316,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     width: 184
     height: 408.66666
   m_MinSize: {x: 201, y: 221}
@@ -306,6 +332,15 @@ MonoBehaviour:
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    width: 167.33333
+    height: 368.66666
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     width: 167.33333
@@ -355,10 +390,17 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     x: 184
     y: 0
     width: 777.3333
     height: 408.66666
+=======
+    x: 167.33333
+    y: 0
+    width: 841.3334
+    height: 368.66666
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     x: 167.33333
     y: 0
@@ -399,6 +441,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -411,9 +456,15 @@ MonoBehaviour:
     x: 0
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     y: 408.66666
     width: 961.3333
     height: 170.66666
+=======
+    y: 368.66666
+    width: 1008.6667
+    height: 210.66666
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     y: 368.66666
     width: 1008.6667
@@ -430,6 +481,7 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
   m_Selected: 0
   m_LastSelected: 1
@@ -578,6 +630,9 @@ MonoBehaviour:
 =======
   m_Selected: 0
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+  m_Selected: 0
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
   m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
@@ -605,6 +660,9 @@ MonoBehaviour:
   - {fileID: 18}
   - {fileID: 12}
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -649,6 +707,9 @@ MonoBehaviour:
 --- !u!114 &13
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -678,6 +739,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     x: 184
     y: 72.66667
     width: 775.3333
@@ -693,12 +755,17 @@ MonoBehaviour:
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
     x: 167.33334
     y: 72.66667
     width: 839.3334
     height: 347.66666
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -725,9 +792,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
   m_TargetSize: {x: 775.3333, y: 366.66666}
 =======
   m_TargetSize: {x: 852.00006, y: 343.33334}
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+  m_TargetSize: {x: 839.3334, y: 326.66666}
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
   m_TargetSize: {x: 839.3334, y: 326.66666}
@@ -756,6 +827,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     m_HBaseRangeMin: -258.44446
     m_HBaseRangeMax: 258.44446
     m_VBaseRangeMin: -122.22222
@@ -771,12 +843,17 @@ MonoBehaviour:
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
     m_HBaseRangeMin: -279.7778
     m_HBaseRangeMax: 279.7778
     m_VBaseRangeMin: -108.888885
     m_VBaseRangeMax: 108.888885
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -803,6 +880,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
       width: 775.3333
       height: 366.66666
     m_Scale: {x: 1.5, y: 1.5}
@@ -818,12 +896,17 @@ MonoBehaviour:
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
       width: 839.3334
       height: 326.66666
     m_Scale: {x: 1.5, y: 1.5}
     m_Translation: {x: 419.6667, y: 163.33333}
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -835,6 +918,7 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
@@ -882,6 +966,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1259, y: 521.5}
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+      x: -279.7778
+      y: -108.888885
+      width: 559.5556
+      height: 217.77777
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1259, y: 521.5}
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -891,9 +984,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 --- !u!114 &14
 =======
 --- !u!114 &13
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+--- !u!114 &14
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 --- !u!114 &14
@@ -930,11 +1027,16 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     width: 183
     height: 387.66666
 =======
     width: 172.33333
     height: 364.33334
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    width: 166.33333
+    height: 347.66666
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     width: 166.33333
@@ -966,6 +1068,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
       m_SelectedIDs: 76750000
       m_LastClickedID: 0
       m_ExpandedIDs: b8faffff
@@ -973,6 +1076,11 @@ MonoBehaviour:
       m_SelectedIDs: fc7f0000
       m_LastClickedID: 0
       m_ExpandedIDs: 86faffff147c0000
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+      m_SelectedIDs: 8681ffff
+      m_LastClickedID: -32378
+      m_ExpandedIDs: 1aa4ffff26aaffff14adffff
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
       m_SelectedIDs: 8681ffff
@@ -1017,9 +1125,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 --- !u!114 &15
 =======
 --- !u!114 &14
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+--- !u!114 &15
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 --- !u!114 &15
@@ -1054,6 +1166,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     x: 184
     y: 72.66667
     width: 775.3333
@@ -1069,12 +1182,17 @@ MonoBehaviour:
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
     x: 167.33334
     y: 72.66667
     width: 839.3334
     height: 347.66666
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -1610,6 +1728,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     m_Target: {x: 22.154165, y: 46.06327, z: -71.206215}
     speed: 2
     m_Value: {x: 22.154165, y: 46.06327, z: -71.206215}
@@ -1617,6 +1736,11 @@ MonoBehaviour:
     m_Target: {x: 16.719603, y: -6.0139976, z: -14.892713}
     speed: 2
     m_Value: {x: 16.719603, y: -6.0139976, z: -14.892713}
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    m_Target: {x: -795.2327, y: -526.496, z: 715.47314}
+    speed: 2
+    m_Value: {x: -795.2327, y: -526.496, z: 715.47314}
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     m_Target: {x: -795.2327, y: -526.496, z: 715.47314}
@@ -1682,6 +1806,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     m_Target: {x: 0.13047208, y: 0.2927514, z: -0.04035975, w: 0.94638526}
     speed: 2
     m_Value: {x: -0.13047208, y: -0.2927514, z: 0.04035975, w: -0.9463853}
@@ -1697,6 +1822,15 @@ MonoBehaviour:
     m_Target: 9.443931
     speed: 2
     m_Value: 9.888932
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    m_Target: {x: -0.23273459, y: 0.38613454, z: -0.10136596, w: -0.88689655}
+    speed: 2
+    m_Value: {x: -0.23251677, y: 0.38788313, z: -0.10182481, w: -0.88606673}
+  m_Size:
+    m_Target: 644.6797
+    speed: 2
+    m_Value: 644.6797
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     m_Target: {x: -0.23273459, y: 0.38613454, z: -0.10136596, w: -0.88689655}
@@ -1749,9 +1883,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     m_SceneView: {fileID: 15}
 =======
     m_SceneView: {fileID: 14}
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    m_SceneView: {fileID: 15}
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     m_SceneView: {fileID: 15}
@@ -1775,9 +1913,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 --- !u!114 &16
 =======
 --- !u!114 &15
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+--- !u!114 &16
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 --- !u!114 &16
@@ -1813,6 +1955,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     y: 481.33334
     width: 960.3333
     height: 149.66666
@@ -1820,6 +1963,11 @@ MonoBehaviour:
     y: 458
     width: 1026.3334
     height: 172.99997
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    y: 441.33334
+    width: 1007.6667
+    height: 189.66666
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     y: 441.33334
@@ -1861,7 +2009,11 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     - Assets/visuals/models
+=======
+    - Assets
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     - Assets
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -1883,11 +2035,16 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
   - Assets/visuals/models
   m_LastFoldersGridSize: 40
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
   m_LastProjectPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror
 =======
+=======
+  - Assets
+  m_LastFoldersGridSize: 40
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
   - Assets
   m_LastFoldersGridSize: 40
@@ -1910,6 +2067,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 347d0000
     m_LastClickedID: 32052
@@ -1925,12 +2083,17 @@ MonoBehaviour:
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
     scrollPos: {x: 0, y: 69}
     m_SelectedIDs: 048a0000
     m_LastClickedID: 35332
     m_ExpandedIDs: 00000000048a0000088a00000e8a000000ca9a3bffffff7f
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
@@ -1968,9 +2131,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     m_ExpandedIDs: 00000000dc7c0000
 =======
     m_ExpandedIDs: 00000000f87c0000
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    m_ExpandedIDs: 
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     m_ExpandedIDs: 
@@ -2045,7 +2212,11 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 --- !u!114 &16
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+--- !u!114 &17
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 --- !u!114 &17
@@ -2081,9 +2252,15 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     y: 481.33334
     width: 960.3333
     height: 149.66666
+=======
+    y: 514
+    width: 1026.3334
+    height: 116.99997
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     y: 514
     width: 1026.3334
@@ -2119,9 +2296,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 --- !u!114 &18
 =======
 --- !u!114 &17
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+--- !u!114 &18
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
 --- !u!114 &18
@@ -2156,6 +2337,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
     x: 961.3334
     y: 72.66667
     width: 317.6667
@@ -2163,6 +2345,11 @@ MonoBehaviour:
     x: 1027.3334
     y: 72.66667
     width: 251.66663
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+    x: 1008.6667
+    y: 72.66667
+    width: 270.3333
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
     x: 1008.6667
@@ -2202,9 +2389,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
 <<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
+<<<<<<< Updated upstream:WesternHorror/UserSettings/Layouts/default-2023.dwlt
   m_LastVerticalScrollValue: 1833.3335
 =======
   m_LastVerticalScrollValue: 626.66675
+>>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
+=======
+  m_LastVerticalScrollValue: 6
 >>>>>>> Stashed changes:test stuff/UserSettings/Layouts/default-2023.dwlt
 =======
   m_LastVerticalScrollValue: 6

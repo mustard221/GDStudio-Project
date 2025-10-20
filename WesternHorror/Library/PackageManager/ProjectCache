@@ -4,7 +4,12 @@ m_ProjectFiles:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
     m_FilePath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/WesternHorror/Packages/manifest.json
+=======
+    m_FilePath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/test
+      stuff/Packages/manifest.json
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
     m_FilePath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/test
       stuff/Packages/manifest.json
@@ -25,6 +30,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
@@ -61,6 +67,13 @@ m_ProjectFiles:
     m_FilePath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/test
       stuff/Packages/packages-lock.json
 >>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
+=======
+      ticks: 638965570373037907
+    m_Hash: 3163782642
+  m_LockFileStatus:
+    m_FilePath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/test
+      stuff/Packages/packages-lock.json
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -69,9 +82,13 @@ m_ProjectFiles:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
       ticks: 638962959538749426
 =======
       ticks: 638962977263654198
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
+=======
+      ticks: 638965570373181958
 >>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
       ticks: 638965570373181958
@@ -91,7 +108,12 @@ m_LocalPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 m_ProjectPath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/WesternHorror/Packages
+=======
+m_ProjectPath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/test
+  stuff/Packages
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
 m_ProjectPath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/test
   stuff/Packages
@@ -119,7 +141,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.2d.sprite@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.2d.sprite@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.2d.sprite@1.0.0
@@ -204,7 +231,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.collab-proxy@2.9.3
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.collab-proxy@2.9.3
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.collab-proxy@2.9.3
@@ -398,7 +430,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.feature.development@1.0.2
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.feature.development@1.0.2
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.feature.development@1.0.2
@@ -514,7 +551,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.postprocessing@3.4.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.postprocessing@3.4.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.postprocessing@3.4.0
@@ -647,7 +689,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.timeline@1.8.6
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.timeline@1.8.6
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.timeline@1.8.6
@@ -848,7 +895,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.ugui@2.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.ugui@2.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.ugui@2.0.0
@@ -957,7 +1009,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.visualscripting@1.8.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.visualscripting@1.8.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.visualscripting@1.8.0
@@ -1094,7 +1151,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.accessibility@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.accessibility@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.accessibility@1.0.0
@@ -1176,7 +1238,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.ai@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.ai@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.ai@1.0.0
@@ -1258,7 +1325,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.androidjni@1.0.0
@@ -1339,7 +1411,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.animation@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.animation@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.animation@1.0.0
@@ -1421,7 +1498,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
@@ -1503,7 +1585,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.audio@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.audio@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.audio@1.0.0
@@ -1585,7 +1672,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.cloth@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.cloth@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.cloth@1.0.0
@@ -1671,7 +1763,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.director@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.director@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.director@1.0.0
@@ -1761,7 +1858,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
@@ -1843,7 +1945,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.imgui@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.imgui@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.imgui@1.0.0
@@ -1925,7 +2032,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
@@ -2007,7 +2119,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
@@ -2089,7 +2206,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.physics@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.physics@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.physics@1.0.0
@@ -2171,7 +2293,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.physics2d@1.0.0
@@ -2253,7 +2380,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.screencapture@1.0.0
@@ -2339,7 +2471,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.terrain@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.terrain@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.terrain@1.0.0
@@ -2421,7 +2558,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
@@ -2511,7 +2653,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.tilemap@1.0.0
@@ -2596,7 +2743,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.ui@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.ui@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.ui@1.0.0
@@ -2678,7 +2830,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.uielements@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.uielements@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.uielements@1.0.0
@@ -2776,7 +2933,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.umbra@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.umbra@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.umbra@1.0.0
@@ -2858,7 +3020,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
@@ -2948,7 +3115,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
@@ -3030,7 +3202,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
@@ -3120,7 +3297,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
@@ -3210,7 +3392,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
@@ -3300,7 +3487,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
@@ -3406,7 +3598,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.vehicles@1.0.0
@@ -3492,7 +3689,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.video@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.video@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.video@1.0.0
@@ -3586,7 +3788,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.vr@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.vr@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.vr@1.0.0
@@ -3682,7 +3889,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.wind@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.wind@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.wind@1.0.0
@@ -3764,7 +3976,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.xr@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.xr@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.xr@1.0.0
@@ -3858,7 +4075,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.subsystems@1.0.0
@@ -3944,7 +4166,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.modules.hierarchycore@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.modules.hierarchycore@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.modules.hierarchycore@1.0.0
@@ -4026,7 +4253,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
@@ -4151,7 +4383,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.ide.rider@3.0.28
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.ide.rider@3.0.28
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.ide.rider@3.0.28
@@ -4294,7 +4531,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.editorcoroutines@1.0.0
@@ -4388,7 +4630,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
@@ -4491,7 +4738,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.test-framework@1.3.9
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.test-framework@1.3.9
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.test-framework@1.3.9
@@ -4656,7 +4908,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
@@ -4795,7 +5052,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.settings-manager@2.0.1
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.settings-manager@2.0.1
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.settings-manager@2.0.1
@@ -4888,7 +5150,12 @@ m_ResolvedPackages:
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
 <<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
+<<<<<<< Updated upstream:WesternHorror/Library/PackageManager/ProjectCache
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\WesternHorror\Library\PackageCache\com.unity.ext.nunit@2.0.5
+=======
+  resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
+    stuff\Library\PackageCache\com.unity.ext.nunit@2.0.5
+>>>>>>> Stashed changes:test stuff/Library/PackageManager/ProjectCache
 =======
   resolvedPath: C:\Users\jessi\Documents\GitHub\CowboyHorror\GDStudio-Project\test
     stuff\Library\PackageCache\com.unity.ext.nunit@2.0.5
