@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:WesternHorror/Assets/Materials/New Material 2.mat.meta
 guid: ccc4dbea55add814e843ff00352f8bfd
+=======
+guid: 3d74e3eda2ba6854d9db6384c64216d1
+>>>>>>> Stashed changes:test stuff/Assets/visuals/New Material 2.mat.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
