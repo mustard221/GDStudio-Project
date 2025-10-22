@@ -4,31 +4,31 @@ using UnityEngine;
 
 public class InCameraDetector : MonoBehaviour
 {
-    Camera camera;
-    MeshRenderer renderer;
+    Camera cam;
+    MeshRenderer render;
     Plane[] cameraFrustum;
-    Collider collider;
+    Collider collide;
 
     // Start is called before the first frame update
     void Start()
     {
-        camera = Camera.main;
-        renderer = GetComponent<MeshRenderer>();
-        collider = GetComponent<Collider>();
+        cam = Camera.main;
+        render = GetComponent<MeshRenderer>();
+        collide = GetComponent<Collider>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        var bounds = collider.bounds;
-        cameraFrustum = GeometryUtility.CalculateFrustumPlanes(camera);
+        var bounds = collide.bounds;
+        cameraFrustum = GeometryUtility.CalculateFrustumPlanes(cam);
         if (GeometryUtility.TestPlanesAABB(cameraFrustum, bounds))
         {
-            renderer.sharedMaterial.color = Color.green;
+            render.sharedMaterial.color = Color.green;
         }
         else
         {
-            renderer.sharedMaterial.color = Color.red;
+            render.sharedMaterial.color = Color.red;
         }
     }
 }

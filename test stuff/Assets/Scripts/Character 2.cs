@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -30,7 +28,7 @@ public class Character2 : MonoBehaviour
 
     public JumpMeter jumpMeter;
 
-    private bool insideTrigger;
+    // private bool insideTrigger;
 
     CharacterController characterController;
     void Start()
@@ -103,7 +101,7 @@ public class Character2 : MonoBehaviour
         if (currentHealth <= 0)
         {
             enteredTrigger.Invoke();
-            insideTrigger = true;
+           // insideTrigger = true;
             print("oh no i am dead");
         }
     }

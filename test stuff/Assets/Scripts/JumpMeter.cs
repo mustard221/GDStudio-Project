@@ -19,18 +19,17 @@ public class JumpMeter : MonoBehaviour
     {
         if (IsFacingEnemy())
         {
-            if (draining == null)
-            draining = StartCoroutine(Draining());
+            if (draining == null && filling != null)
+                draining = StartCoroutine(Draining());
             StopCoroutine(Filling());
+            filling = null;
         }
         else
         {
-            if (draining != null)
-            {
-                StopCoroutine(Draining());
-                draining = null;
-                StartCoroutine(Filling());
-            }
+            if (filling == null && draining != null)
+                filling = StartCoroutine(Filling()); 
+            StopCoroutine(Draining());
+            draining = null;
         }
     }
 

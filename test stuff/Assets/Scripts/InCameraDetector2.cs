@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,40 +5,40 @@ public class InCameraDetector2 : MonoBehaviour
 {
     public UnityEvent enteredTrigger;
 
-    Camera camera;
-    MeshRenderer renderer;
+    Camera cam;
+    MeshRenderer render;
     Plane[] cameraFrustum;
-    Collider collider;
+    Collider collide;
 
-    private bool insideTrigger;
+    //private bool insideTrigger;
 
     // Start is called before the first frame update
     void Start()
     {
-        camera = Camera.main;
-        renderer = GetComponent<MeshRenderer>();
-        collider = GetComponent<Collider>();
+        cam = Camera.main;
+        render = GetComponent<MeshRenderer>();
+        collide = GetComponent<Collider>();
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        var bounds = collider.bounds;
-        cameraFrustum = GeometryUtility.CalculateFrustumPlanes(camera);
+        var bounds = collide.bounds;
+        cameraFrustum = GeometryUtility.CalculateFrustumPlanes(cam);
         if (GeometryUtility.TestPlanesAABB(cameraFrustum, bounds))
         {
             TriggerEntered();
         }
-       /* else
-        {
-            print("POO");
-        } */
+        /* else
+         {
+             print("POO");
+         } */
     }
 
     public void TriggerEntered()
     {
         enteredTrigger.Invoke();
-        insideTrigger = true;
+      // insideTrigger = true;
     }
 }

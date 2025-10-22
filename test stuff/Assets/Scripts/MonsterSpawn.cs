@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MonsterSpawn : MonoBehaviour
@@ -28,10 +26,10 @@ public class MonsterSpawn : MonoBehaviour
 
         //using values from randomized ranges
         Vector3 spawnOffset = new Vector3(randomDir.x, 0, randomDir.y) * randomDist;
-       
+
         Vector3 spawnPos = playerPos + spawnOffset; // taking player position + offset to generate spawn location
-        monster.transform.position = spawnPos; 
-         
+        monster.transform.position = spawnPos;
+
         Vector3 lookTarget = new Vector3(playerPos.x, spawnPos.y, playerPos.z); // monster faces player
         monster.transform.LookAt(lookTarget);
 
