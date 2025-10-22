@@ -795,6 +795,7 @@ m_ResolvedPackages:
     - 1.9.6
     - 1.9.7
     - 1.9.8
+    - 1.9.9
     compatible:
     - 1.8.0
     - 1.9.0
@@ -805,6 +806,7 @@ m_ResolvedPackages:
     - 1.9.6
     - 1.9.7
     - 1.9.8
+    - 1.9.9
     recommended: 1.8.0
     deprecated:
     - 1.8.0-pre.1
