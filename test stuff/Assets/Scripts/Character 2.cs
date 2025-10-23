@@ -28,7 +28,7 @@ public class Character2 : MonoBehaviour
 
     public JumpMeter jumpMeter;
 
-    // private bool insideTrigger;
+    private bool insideTrigger;
 
     CharacterController characterController;
     void Start()
@@ -38,7 +38,15 @@ public class Character2 : MonoBehaviour
         Cursor.visible = false;
 
         currentHealth = maxHealth;
-        jumpMeter.SetMaxHealth(maxHealth);
+
+        if (jumpMeter != null)
+        {
+            jumpMeter.SetMaxHealth(maxHealth);
+        }
+        else
+        {
+            Debug.LogWarning("slider not assigned to player");
+        }
     }
 
     void Update()
@@ -74,7 +82,7 @@ public class Character2 : MonoBehaviour
 
         #endregion
 
-        #region Handles Rotation
+        #region Handles Rotation    
         characterController.Move(moveDirection * Time.deltaTime);
 
         if (canMove)
@@ -89,6 +97,7 @@ public class Character2 : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P))
         {
+            print("ow");
             TakeDamage(20);
         }
     }
@@ -101,7 +110,7 @@ public class Character2 : MonoBehaviour
         if (currentHealth <= 0)
         {
             enteredTrigger.Invoke();
-           // insideTrigger = true;
+            insideTrigger = true;
             print("oh no i am dead");
         }
     }

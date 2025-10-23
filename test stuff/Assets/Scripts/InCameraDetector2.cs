@@ -10,7 +10,7 @@ public class InCameraDetector2 : MonoBehaviour
     Plane[] cameraFrustum;
     Collider collide;
 
-    //private bool insideTrigger;
+    private bool insideTrigger;
 
     // Start is called before the first frame update
     void Start()

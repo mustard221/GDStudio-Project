@@ -19,17 +19,25 @@ public class JumpMeter : MonoBehaviour
     {
         if (IsFacingEnemy())
         {
-            if (draining == null && filling != null)
+            Debug.Log("facing enemy");
+            if (draining == null)
                 draining = StartCoroutine(Draining());
-            StopCoroutine(Filling());
-            filling = null;
+            if (filling != null)
+            {
+                StopCoroutine(filling);
+                filling = null;
+            }
         }
         else
         {
-            if (filling == null && draining != null)
+            Debug.Log("facing away from enemy");
+            if (filling == null)
                 filling = StartCoroutine(Filling()); 
-            StopCoroutine(Draining());
-            draining = null;
+            if (draining != null)
+            {
+                StopCoroutine(draining);
+                draining = null;
+            }
         }
     }
 
@@ -48,9 +56,9 @@ public class JumpMeter : MonoBehaviour
 
     private IEnumerator Draining()
     {
-        while (IsFacingEnemy() && slider.value > 0)
+        while (IsFacingEnemy() && slider != null && slider.value > 0f)
         {
-            Debug.Log("looking at enemy");
+            Debug.Log("bar draining");
             SetHealth((int)slider.value - 1);
             yield return new WaitForSeconds(0.05f);    
         }
@@ -58,9 +66,9 @@ public class JumpMeter : MonoBehaviour
     }
     private IEnumerator Filling() // working on bar fill when looking away from enemy
     {
-        while (!IsFacingEnemy() && slider.value < 100)
+        while (!IsFacingEnemy() && slider != null && slider.value < slider.maxValue)
         {
-            Debug.Log("looking away from enemy");
+            Debug.Log("bar filling");
             SetHealth((int)slider.value + 1);
             yield return new WaitForSeconds(0.05f);
         }
@@ -69,26 +77,30 @@ public class JumpMeter : MonoBehaviour
 
     public void SetMaxHealth(int health)
     {
+        if (slider == null) return;
         slider.maxValue = health;
         slider.value = health;
     }
 
     public void SetHealth(int health)
     {
-        if (slider.value > 0 && health <= 0)
+        if (slider == null) return;
+
+        int previous = (int)slider.value;
+        int clamped = Mathf.Clamp(health, 0, (int)slider.maxValue);
+        slider.value = clamped;
+
+        if (clamped == 0 && previous > 0)
         {
-            slider.value = 0;
             OnHealthZero();
-        }
-        else
-        {
-            slider.value = health;
         }
     }
 
     private void OnHealthZero()
     {
         Debug.Log("health at 0");
-        jumpscare.SetActive(true); // trigger jumpscare
+        if (jumpscare != null)
+            jumpscare.SetActive(true); // trigger jumpscare
+        onHealthZero?.Invoke();
     }
 }
