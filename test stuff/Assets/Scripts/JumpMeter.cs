@@ -19,7 +19,7 @@ public class JumpMeter : MonoBehaviour
     {
         if (IsFacingEnemy())
         {
-            Debug.Log("facing enemy");
+            //Debug.Log("facing enemy");
             if (draining == null)
                 draining = StartCoroutine(Draining());
             if (filling != null)
@@ -30,7 +30,7 @@ public class JumpMeter : MonoBehaviour
         }
         else
         {
-            Debug.Log("facing away from enemy");
+            //Debug.Log("facing away from enemy");
             if (filling == null)
                 filling = StartCoroutine(Filling()); 
             if (draining != null)
@@ -60,7 +60,7 @@ public class JumpMeter : MonoBehaviour
         {
             Debug.Log("bar draining");
             SetHealth((int)slider.value - 1);
-            yield return new WaitForSeconds(0.05f);    
+            yield return new WaitForSeconds(0.025f);    
         }
         draining = null;
     }

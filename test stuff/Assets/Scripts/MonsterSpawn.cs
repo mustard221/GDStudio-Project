@@ -1,45 +1,81 @@
 using UnityEngine;
+using System.Collections;
 
 public class MonsterSpawn : MonoBehaviour
 {
     public GameObject monster;
     public Character2 player;
 
+    public float initialDelay = 3f;
+    public float baseInterval = 30f;
+    public float minInterval = 5f;
+
+    private float spawnInterval;
+    private Coroutine spawnRoutine;
+
+    private static MonsterSpawn instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
-        Invoke("SpawnDelay", 3);
+        spawnInterval = baseInterval;
+
+        if (monster != null)
+            monster.SetActive(false); // ensure single monster is hidden until first spawn
+
+        spawnRoutine = StartCoroutine(spawnLoop(initialDelay)); // using coroutine to create spawn loop
     }
 
-    private void SpawnDelay()
+    private IEnumerator spawnLoop(float delay)
     {
-        if (player == null)
+        yield return new WaitForSeconds(delay);
+
+        while (true)
         {
-            Debug.LogWarning("player not set");
-            return;
+            spawnOnce();
+            yield return new WaitForSeconds(spawnInterval);
         }
-        //getting player position value
+    }
+
+    private void spawnOnce()
+    {
         Vector3 playerPos = player.transform.position;
 
-        //random ranges for generating spawn position from player
+        // get random distance & face towards player
         Vector2 randomDir = Random.insideUnitCircle.normalized;
         float randomDist = Random.Range(20f, 25f);
+        Vector3 spawnOffset = new Vector3(randomDir.x, 0f, randomDir.y) * randomDist;
+        Vector3 spawnPos = playerPos + spawnOffset;
 
-        //using values from randomized ranges
-        Vector3 spawnOffset = new Vector3(randomDir.x, 0, randomDir.y) * randomDist;
-
-        Vector3 spawnPos = playerPos + spawnOffset; // taking player position + offset to generate spawn location
         monster.transform.position = spawnPos;
-
-        Vector3 lookTarget = new Vector3(playerPos.x, spawnPos.y, playerPos.z); // monster faces player
-        monster.transform.LookAt(lookTarget);
-
+        monster.transform.LookAt(playerPos);
         monster.SetActive(true);
+
+        StartCoroutine(Despawn());
     }
 
-    public static void UpdateSpawnInterval(int itemCount)
+    private IEnumerator Despawn()
     {
-        float interval = Mathf.Max(5f, itemCount * 5f); // getting interval value by updating items amount * seconds subtracted
-        Debug.Log($"monster spawn interval updated to {interval} seconds. " +
-            $"items collected: {itemCount})");
+        yield return new WaitForSeconds(6f); // disappears after 6 seconds
+        monster.SetActive(false);
+    }
+
+    // updates spawn interval based on collected items
+    public static void updateInterval(int itemCount)
+    {
+        float newInterval = Mathf.Max(instance.minInterval, instance.baseInterval - itemCount * 5f);
+        instance.newInterval(newInterval, itemCount);
+    }
+
+    private void newInterval(float newInterval, int itemCount)
+    {
+        if (Mathf.Approximately(newInterval, spawnInterval)) return;
+
+        spawnInterval = newInterval;
+        Debug.Log($"spawn interval updated to {spawnInterval} secs. items collected: {itemCount}");
     }
 }
