@@ -6,7 +6,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638977150932620809
+      ticks: 638977729432885391
     m_Hash: 3163782642
   m_LockFileStatus:
     m_FilePath: C:/Users/jessi/Documents/GitHub/CowboyHorror/GDStudio-Project/test
@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638977150932620809
+      ticks: 638977729432885391
     m_Hash: 1954342874
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -196,6 +196,7 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
     compatible:
     - 2.3.1
     - 2.4.3
@@ -210,6 +211,7 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
     recommended: 2.3.1
     deprecated: []
   dependencies: []
