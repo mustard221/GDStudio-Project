@@ -47,7 +47,7 @@ public class MonsterSpawn : MonoBehaviour
 
         // get random distance & face towards player
         Vector2 randomDir = Random.insideUnitCircle.normalized;
-        float randomDist = Random.Range(20f, 25f);
+        float randomDist = Random.Range(5f, 10f);
         Vector3 spawnOffset = new Vector3(randomDir.x, 0f, randomDir.y) * randomDist;
         Vector3 spawnPos = playerPos + spawnOffset;
 
