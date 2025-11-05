@@ -7,8 +7,8 @@ public class MonsterSpawn : MonoBehaviour
     public Character2 player;
 
     public float initialDelay = 3f;
-    public float baseInterval = 5f;
-    public float minInterval = 5f;
+    public float baseInterval = 15f;
+    public float minInterval = 2f;
     public float itemCount; 
     private float spawnInterval;
     private Coroutine spawnRoutine;
@@ -60,14 +60,14 @@ public class MonsterSpawn : MonoBehaviour
 
     private IEnumerator Despawn()
     {
-        yield return new WaitForSeconds(10f); // disappears after 6 seconds
+        yield return new WaitForSeconds(6f); // disappears after 6 seconds
         monster.SetActive(false);
     }
 
     // updates spawn interval based on collected items
     public static void updateInterval(int itemCount)
     {
-        float newInterval = Mathf.Max(instance.minInterval, instance.baseInterval - itemCount * 5f);
+        float newInterval = Mathf.Max(instance.minInterval, instance.baseInterval - itemCount * 2f);
         instance.newInterval(newInterval, itemCount);
     }
 
