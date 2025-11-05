@@ -9,7 +9,7 @@ public class MonsterSpawn : MonoBehaviour
     public float initialDelay = 3f;
     public float baseInterval = 30f;
     public float minInterval = 5f;
-
+    
     private float spawnInterval;
     private Coroutine spawnRoutine;
 
@@ -22,7 +22,7 @@ public class MonsterSpawn : MonoBehaviour
 
     void Start()
     {
-        spawnInterval = baseInterval;
+        spawnInterval = baseInterval; // initialize spawn interval
 
         if (monster != null)
             monster.SetActive(false); // ensure single monster is hidden until first spawn
@@ -37,24 +37,28 @@ public class MonsterSpawn : MonoBehaviour
         while (true)
         {
             spawnOnce();
-            yield return new WaitForSeconds(spawnInterval);
+            yield return new WaitForSeconds(spawnInterval); // wait for next spawn
         }
     }
 
     private void spawnOnce()
     {
-        Vector3 playerPos = player.transform.position;
+        Vector3 playerPos = player.transform.position; // get player position to determine spawn location
 
-        // get random distance & face towards player
+        // generate random distance within range
         Vector2 randomDir = Random.insideUnitCircle.normalized;
-        float randomDist = Random.Range(5f, 10f);
-        Vector3 spawnOffset = new Vector3(randomDir.x, 0f, randomDir.y) * randomDist;
+        float randomDist = Random.Range(4f, 8f);
+
+        // calculate spawn position using the random direction & distance values
+        Vector3 spawnOffset = new Vector3(randomDir.x, 1.05f, 1f) * randomDist;
         Vector3 spawnPos = playerPos + spawnOffset;
 
-        monster.transform.position = spawnPos;
+        // spawn & position monster towards player
+        monster.transform.position = spawnPos; 
         monster.transform.LookAt(playerPos);
         monster.SetActive(true);
 
+        // initiate despawn coroutine
         StartCoroutine(Despawn());
     }
 
@@ -67,15 +71,15 @@ public class MonsterSpawn : MonoBehaviour
     // updates spawn interval based on collected items
     public static void updateInterval(int itemCount)
     {
-        float newInterval = Mathf.Max(instance.minInterval, instance.baseInterval - itemCount * 5f);
+        float newInterval = Mathf.Max(instance.minInterval, instance.baseInterval - itemCount * 5f); // decrease interval by 5 secs per item, min capped
         instance.newInterval(newInterval, itemCount);
     }
 
-    private void newInterval(float newInterval, int itemCount)
+    private void newInterval(float newInterval, int itemCount) // method to update interval based on the interval & item amount values
     {
         if (Mathf.Approximately(newInterval, spawnInterval)) return;
 
-        spawnInterval = newInterval;
+        spawnInterval = newInterval; 
         Debug.Log($"spawn interval updated to {spawnInterval} secs. items collected: {itemCount}");
     }
 }
