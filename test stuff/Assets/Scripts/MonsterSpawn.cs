@@ -67,7 +67,7 @@ public class MonsterSpawn : MonoBehaviour
     // updates spawn interval based on collected items
     public static void updateInterval(int itemCount)
     {
-        float newInterval = Mathf.Max(instance.minInterval, instance.baseInterval - itemCount * 2f);
+        float newInterval = Mathf.Max(instance.minInterval, instance.baseInterval - itemCount * 2.5f);
         instance.newInterval(newInterval, itemCount);
     }
 
