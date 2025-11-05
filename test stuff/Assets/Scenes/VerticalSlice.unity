@@ -5325,7 +5325,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 7208fc53a59de2d49a5089d3e6691ab7, type: 3}
   m_Resource: {fileID: 8300000, guid: 7208fc53a59de2d49a5089d3e6691ab7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.3
   m_Pitch: 0.85
   Loop: 0
   Mute: 0
@@ -19185,7 +19185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1040014127}
   m_Layer: 0
-  m_Name: cacti
+  m_Name: cactus_wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
