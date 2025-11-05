@@ -21826,8 +21826,8 @@ MonoBehaviour:
   monster: {fileID: 322091279}
   player: {fileID: 1340724882}
   initialDelay: 3
-  baseInterval: 30
-  minInterval: 5
+  baseInterval: 15
+  minInterval: 2
   itemCount: 0
 --- !u!4 &912199547
 Transform:
@@ -37195,7 +37195,7 @@ Transform:
   m_GameObject: {fileID: 1634467643}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.842163, y: 0.13899994, z: -4.9089327}
+  m_LocalPosition: {x: 4.842163, y: -0.25, z: -4.9089327}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
