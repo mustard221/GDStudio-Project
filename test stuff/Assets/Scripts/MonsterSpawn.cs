@@ -7,18 +7,11 @@ public class MonsterSpawn : MonoBehaviour
     public Character2 player;
 
     public float initialDelay = 3f;
-<<<<<<< HEAD
-    public float baseInterval = 5f;
-    public float minInterval = 5f;
-<<<<<<< HEAD
-    
-=======
-=======
+
     public float baseInterval = 15f;
     public float minInterval = 2f;
->>>>>>> 58068f293ad236e33e6a0fa8366cc0d97c6fcf5e
     public float itemCount; 
->>>>>>> ccc24b5729e82113aff0190647b894bd535fb69d
+
     private float spawnInterval;
     private Coroutine spawnRoutine;
 
@@ -80,11 +73,7 @@ public class MonsterSpawn : MonoBehaviour
     // updates spawn interval based on collected items
     public static void updateInterval(int itemCount)
     {
-<<<<<<< HEAD
-        float newInterval = Mathf.Max(instance.minInterval, instance.baseInterval - itemCount * 5f); // decrease interval by 5 secs per item, min capped
-=======
         float newInterval = Mathf.Max(instance.minInterval, instance.baseInterval - itemCount * 2.5f);
->>>>>>> 58068f293ad236e33e6a0fa8366cc0d97c6fcf5e
         instance.newInterval(newInterval, itemCount);
     }
 
