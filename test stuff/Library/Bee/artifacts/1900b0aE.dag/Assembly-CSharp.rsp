@@ -397,6 +397,7 @@
 "Assets/Scripts/JumpMeter.cs"
 "Assets/Scripts/Jumpscare.cs"
 "Assets/Scripts/MonsterSpawn.cs"
+"Assets/Scripts/MonsterSpawn2.cs"
 "Assets/Scripts/Pickup.cs"
 "Assets/Scripts/trigger.cs"
 -langversion:9.0

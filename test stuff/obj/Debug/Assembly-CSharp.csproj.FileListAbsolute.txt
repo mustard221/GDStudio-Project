@@ -1,0 +1,6 @@
+C:\Users\laimr\OneDrive\Belgeler\GitHub\GDStudio-Project\test stuff\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\laimr\OneDrive\Belgeler\GitHub\GDStudio-Project\test stuff\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\laimr\OneDrive\Belgeler\GitHub\GDStudio-Project\test stuff\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\laimr\OneDrive\Belgeler\GitHub\GDStudio-Project\test stuff\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\laimr\OneDrive\Belgeler\GitHub\GDStudio-Project\test stuff\obj\Debug\Assembly-CSharp.dll
+C:\Users\laimr\OneDrive\Belgeler\GitHub\GDStudio-Project\test stuff\obj\Debug\Assembly-CSharp.pdb

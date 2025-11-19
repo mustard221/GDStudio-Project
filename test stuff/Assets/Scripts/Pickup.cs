@@ -18,7 +18,7 @@ public class Pickup : MonoBehaviour
             exitedTrigger.Invoke();
             insideTrigger = false;
             itemCount++;
-            MonsterSpawn.updateInterval(itemCount); // notify spawner
+            MonsterSpawn2.updateSpeed(itemCount); // notify spawner
         }
     }
 

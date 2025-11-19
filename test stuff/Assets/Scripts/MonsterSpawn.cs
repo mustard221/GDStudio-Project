@@ -2,13 +2,13 @@ using UnityEngine;
 using System.Collections;
 
 public class MonsterSpawn : MonoBehaviour
-{
+{ 
     public GameObject monster;
     public Character2 player;
 
     public float initialDelay = 3f;
 
-    public float baseInterval = 15f;
+    public float baseInterval = 10f;
     public float minInterval = 2f;
     public float itemCount; 
 
@@ -77,7 +77,7 @@ public class MonsterSpawn : MonoBehaviour
         instance.newInterval(newInterval, itemCount);
     }
 
-    private void newInterval(float newInterval, int itemCount) // method to update interval based on the interval & item amount values
+    private void newInterval(float newInterval, int itemCount) // method to update interval based on the current time & item amount
     {
         if (Mathf.Approximately(newInterval, spawnInterval)) return;
 
