@@ -10,20 +10,22 @@ public class MonsterSpawn2 : MonoBehaviour
     public GameObject monster;
     public Character2 player;
 
+    public Rigidbody monsterRB;
+    public Transform playerT;
+
     public float monsterSpeed = 2f;
     public float baseSpeed = 5f;
     public float minSpeed = 1f;
 
     public float itemCount;
 
-    private GameObject ground;    
-    private static MonsterSpawn2 instance;
+    public static MonsterSpawn2 instance;
 
     void Awake()
     {
         instance = this;
     }
-  
+
     void Start()
     {
         if (monster != null)
@@ -34,7 +36,13 @@ public class MonsterSpawn2 : MonoBehaviour
 
     private void spawnOnce()
     {
-        Vector3 playerPos = player.transform.position; // get player position to determine spawn location
+        if ((player == null && playerT == null) || monster == null)
+        {
+            Debug.LogWarning("MonsterSpawn2 missing player or monster reference.");
+            return;
+        }
+
+        Vector3 playerPos = (player != null) ? player.transform.position : playerT.position; // get player position to determine spawn location
 
         // calculate spawn position using offset + player position
         Vector3 spawnOffset = new Vector3(10f, 1f, 10f);
@@ -43,42 +51,61 @@ public class MonsterSpawn2 : MonoBehaviour
         // monster faces towards player
         monster.transform.position = spawnPos;
         monster.transform.LookAt(playerPos);
+
         monster.SetActive(true);
 
         Debug.Log("monster spawned at " + spawnPos); // debug for spawn position
-
     }
 
     public static void updateSpeed(int itemCount)
     {
-        float newSpeed = Mathf.Max(instance.minSpeed, instance.baseSpeed - itemCount * 2f); // calculating speed with item count + doesn't go below min speed
+        if (instance == null)
+            return;
+
+        float newSpeed = Mathf.Max(instance.minSpeed, instance.baseSpeed - itemCount * 2f); // calculating speed with item count
         instance.newSpeed(newSpeed, itemCount); // update speed
     }
 
     private void newSpeed(float newSpeed, int itemCount)
     {
         if (Mathf.Approximately(newSpeed, monsterSpeed)) return; // if speed is the same, do nothing
-
         monsterSpeed = newSpeed;
+
         Debug.Log($"monster speed updated to {monsterSpeed}. items collected: {itemCount}"); // debug for speed updates
     }
 
-    private void Update() 
+    private void FixedUpdate()
     {
-        float move = monsterSpeed * Time.deltaTime;
-        float yPos = player.transform.position.y;
-        float yOffset = yPos + 0.4f;
+        if (monster == null || monsterRB == null || playerT == null)
+            return; // check references
 
-        monster.transform.position = Vector3.MoveTowards(monster.transform.position, player.transform.position, move); // move to player location
-        monster.transform.position = new Vector3(monster.transform.position.x, yOffset, monster.transform.position.z); // keep monster at player Y level
-        monster.transform.LookAt(player.transform.position); // face player at all times
+        // taking current monster position
+        Vector3 monsterPos = monster.transform.position; 
+        Vector3 toPlayer = playerT.position - monsterPos;
+        
+        // get direction and distance to player 
+        float distance = toPlayer.magnitude;
+        if (distance < Mathf.Epsilon) return;
+        Vector3 targetDir = toPlayer.normalized;
 
-        // trying ground detection
-      /*  if (ground.CompareTag("ground"))
+        // chase slower if no line of sight
+        bool hasLOS = false;
+        if (distance <= 50f) // only raycast if reasonably close and check for player tag
         {
-            float groundY = ground.transform.position.y;
-            monster.transform.position = new Vector3(monster.transform.position.x, groundY + 1f, monster.transform.position.z);
-        } */
-      
+            if (Physics.Raycast(monsterPos + Vector3.up * 0.5f, targetDir, out RaycastHit hit, 50f))
+            {
+                if (hit.transform == playerT || hit.transform.CompareTag("Player"))
+                    hasLOS = true;
+            }
+        }
+
+        // movement + delta time to keep speed consistent
+        float speedMultiplier = hasLOS ? 1f : 0.6f; // slower if no clear line of sight (tweakable)
+        Vector3 newPos = monsterPos + targetDir * monsterSpeed * speedMultiplier * Time.fixedDeltaTime;
+        monsterRB.MovePosition(newPos);
+
+        // face towards player smoothly w/ slerp
+        Quaternion targetRot = Quaternion.LookRotation(targetDir, Vector3.up);
+        monsterRB.MoveRotation(Quaternion.Slerp(monster.transform.rotation, targetRot, 10f * Time.fixedDeltaTime));
     }
 }

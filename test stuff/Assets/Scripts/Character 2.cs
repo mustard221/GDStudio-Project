@@ -26,7 +26,7 @@ public class Character2 : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
 
-    private bool insideTrigger;
+    public bool insideTrigger;
     public JumpMeter jumpMeter;
 
     CharacterController characterController;
