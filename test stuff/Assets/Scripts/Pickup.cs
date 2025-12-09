@@ -7,6 +7,8 @@ public class Pickup : MonoBehaviour
 {
     public UnityEvent enteredTrigger, exitedTrigger, interacted;
 
+    public AudioSource s;
+
     private bool insideTrigger;
     private static int itemCount = 0; // track collected items
 
@@ -14,6 +16,7 @@ public class Pickup : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && insideTrigger)
         {
+            s.Play();
             interacted?.Invoke();
             exitedTrigger.Invoke();
             insideTrigger = false;

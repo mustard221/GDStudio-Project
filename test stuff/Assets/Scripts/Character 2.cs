@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -5,29 +6,29 @@ using UnityEngine.Events;
 public class Character2 : MonoBehaviour
 {
 
-    public UnityEvent enteredTrigger;
+    [Header("Player Settings")]
 
-    public Camera playerCamera;
     public float walkSpeed = 3f;
     public float runSpeed = 3f;
     public float jumpPower = 7f;
     public float gravity = 10f;
 
-
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
-
-
+    public float rotationX = 0;
     Vector3 moveDirection = Vector3.zero;
-    float rotationX = 0;
-
-    public bool canMove = true;
 
     public int maxHealth = 100;
     public int currentHealth;
 
-    public bool insideTrigger;
+    public Camera playerCamera;
     public JumpMeter jumpMeter;
+    public UnityEvent enteredTrigger;
+
+    public bool insideTrigger;
+    public bool canMove = true;
+
+    public AudioSource deadSound;
 
     CharacterController characterController;
     void Start()
@@ -106,9 +107,10 @@ public class Character2 : MonoBehaviour
         currentHealth -= damage;
         jumpMeter.SetHealth(currentHealth);
 
-        if (currentHealth <= 0)
+        if (currentHealth == 1) 
         {
             enteredTrigger.Invoke();
+            deadSound.Play();
             insideTrigger = true;
             print("oh no i am dead");
         }

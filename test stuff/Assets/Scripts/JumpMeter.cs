@@ -2,44 +2,69 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using UnityEngine.Rendering.PostProcessing;
+using Unity.VisualScripting;
 
 public class JumpMeter : MonoBehaviour
 {
-    public Slider slider; // assign each in inspector
+    [Header("Jumpscare Settings")]
+    public PostProcessVolume settings; // assign all in inspector
     public GameObject jumpscare;
     public Transform cameraTransf;
-    public Transform enemyTransf;  
+    public Transform enemyTransf;
     public float dirLimit = 15f;
+    public AudioSource breathing;
+
+    [Header("Health Settings")]
+    public int CurrentHealth = 100;
+    public int MaxHealth = 100;
+    public int MinHealth = 0;
     public UnityEvent onHealthZero;
 
-    private Coroutine draining;
-    private Coroutine filling;
+    private Coroutine dying;
+    private Coroutine regen;
+    private Coroutine breath;
 
-    private void Update()
+    public void Start() // making sure vignette is assigned
+    {
+        if (settings == null)
+        {
+            Debug.LogWarning("vignette not assigned");
+        }
+    }
+
+    #region Enemy Detection
+
+    private void Update() // checking each frame if player is facing enemy
     {
         if (IsFacingEnemy())
         {
-            if (draining == null)
-                draining = StartCoroutine(Draining());
-            if (filling != null)
+            if (dying == null && breath == null)
+                dying = StartCoroutine(HealthLoss());
+                breath = StartCoroutine(Breathing());
+
+            if (regen != null)
             {
-                StopCoroutine(filling);
-                filling = null;
+                StopCoroutine(regen);
+                regen = null;
             }
         }
         else
         {
-            if (filling == null)
-                filling = StartCoroutine(Filling()); 
-            if (draining != null)
+            if (regen == null)
+                regen = StartCoroutine(Filling()); 
+
+            if (dying != null && breath != null)
             {
-                StopCoroutine(draining);
-                draining = null;
+                StopCoroutine(dying);
+                StopCoroutine(breath);
+                dying = null;
+                breath = null;
             }
         }
     }
 
-    private bool IsFacingEnemy()
+    private bool IsFacingEnemy() 
     {
         if (cameraTransf == null || enemyTransf == null)
             return false;
@@ -48,57 +73,115 @@ public class JumpMeter : MonoBehaviour
             return false;
 
         Vector3 enemyDist = (enemyTransf.position - cameraTransf.position).normalized;
-        float angle = Vector3.Angle(cameraTransf.forward, enemyDist); //calculating if camera is facing enemy
+        float angle = Vector3.Angle(cameraTransf.forward, enemyDist); // calculating if set camera angle is facing enemy
         return angle < dirLimit; 
+
     }
 
-    private IEnumerator Draining()
+    #endregion
+
+    #region Health Stuff
+    private IEnumerator HealthLoss() // draining health when facing enemy
     {
-        while (IsFacingEnemy() && slider != null && slider.value > 0f)
+        while (IsFacingEnemy() && settings != null)
         {
-            Debug.Log("bar draining");
-            SetHealth((int)slider.value - 1);
-            yield return new WaitForSeconds(0.05f);    
-        }
-        draining = null;
-    }
-    private IEnumerator Filling() // working on bar fill when looking away from enemy
-    {
-        while (!IsFacingEnemy() && slider != null && slider.value < slider.maxValue)
-        {
-           // Debug.Log("bar filling");
-            SetHealth((int)slider.value + 1);
+            ApplyDamage(1);
+            if (CurrentHealth <= MinHealth) break;
+            Debug.Log("health draining");
             yield return new WaitForSeconds(0.05f);
         }
-        filling = null;
+        dying = null;
     }
 
-    public void SetMaxHealth(int health)
+    private IEnumerator Filling() // bar fill when looking away from enemy
     {
-        if (slider == null) return;
-        slider.maxValue = health;
-        slider.value = health;
+        while (!IsFacingEnemy() && settings != null)
+        {
+            ApplyRegen(1);
+            if (CurrentHealth >= MaxHealth) break;
+            Debug.Log("health filling");
+            yield return new WaitForSeconds(0.05f);
+        }
+        regen = null;
+    }
+
+    private IEnumerator Breathing() // breathing sound when low health
+    {
+        while (CurrentHealth <= 60)
+        {
+            if (breathing != null && !breathing.isPlaying)
+            {
+                breathing.Play();
+                breathing.volume = 1f - ((float)CurrentHealth / MaxHealth);
+            }
+            yield return null;
+        }
+        if (breathing != null && breathing.isPlaying)
+        {
+            breathing.Stop();
+        }
+        breath = null;
+    }
+
+    private void ApplyDamage(int amount) // applying changes to health
+    {
+        SetHealth(CurrentHealth - amount);
+    }
+
+    private void ApplyRegen(int amount)
+    {
+        SetHealth(CurrentHealth + amount);
+    }
+
+    public void SetMaxHealth(int health) // setting health and checking for zero health
+    {
+        MaxHealth = Mathf.Max(1, health);
+        CurrentHealth = Mathf.Clamp(CurrentHealth, MinHealth, MaxHealth);
+        UpdateVignette();
     }
 
     public void SetHealth(int health)
     {
-        if (slider == null) return;
+        int previous = CurrentHealth;
+        CurrentHealth = Mathf.Clamp(health, MinHealth, MaxHealth);
 
-        int previous = (int)slider.value;
-        int clamped = Mathf.Clamp(health, 0, (int)slider.maxValue);
-        slider.value = clamped;
+        UpdateVignette();
 
-        if (clamped == 0 && previous > 0)
+        if (CurrentHealth == 1 && previous > 0)
         {
             OnHealthZero();
         }
     }
 
-    private void OnHealthZero()
+    #endregion
+
+    #region Vignette + health at zero
+    private void UpdateVignette() // updating vignette intensity based on health
+    {
+        if (settings == null) return;
+
+        settings.profile.TryGetSettings(out Vignette vignette);
+        settings.profile.TryGetSettings(out Grain grain);
+
+        grain.intensity.value = 1f - ((float)CurrentHealth / MaxHealth);
+        vignette.intensity.value = 1f - ((float)CurrentHealth / MaxHealth);
+
+    }
+
+    #endregion
+
+    private void OnHealthZero() // triggering jumpscare on zero health
     {
         Debug.Log("health at 0");
         if (jumpscare != null)
-            jumpscare.SetActive(true); // trigger jumpscare
+            jumpscare.SetActive(true);
         onHealthZero?.Invoke();
+
+        settings.profile.TryGetSettings(out Vignette vignette);
+        settings.profile.TryGetSettings(out Grain grain);
+
+        grain.intensity.value = 1f;
+        vignette.intensity.value = 1f;
+
     }
 }
