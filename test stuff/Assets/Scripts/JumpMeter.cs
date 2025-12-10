@@ -163,8 +163,9 @@ public class JumpMeter : MonoBehaviour
         settings.profile.TryGetSettings(out Vignette vignette);
         settings.profile.TryGetSettings(out Grain grain);
 
-        grain.intensity.value = 1f - ((float)CurrentHealth / MaxHealth);
-        vignette.intensity.value = 1f - ((float)CurrentHealth / MaxHealth);
+        grain.intensity.value = 1.5f - ((float)CurrentHealth / MaxHealth);
+        grain.size.value = 1.25f - ((float)CurrentHealth / MaxHealth);
+        vignette.intensity.value = 1.05f - ((float)CurrentHealth / MaxHealth);
 
     }
 
@@ -181,6 +182,7 @@ public class JumpMeter : MonoBehaviour
         settings.profile.TryGetSettings(out Grain grain);
 
         grain.intensity.value = 1f;
+        grain.size.value = 1f;
         vignette.intensity.value = 1f;
 
     }
