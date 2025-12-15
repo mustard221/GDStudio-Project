@@ -25528,6 +25528,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   s: {fileID: 232861741}
+  winAmount: 1
 --- !u!1001 &810319307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39620,6 +39621,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   s: {fileID: 232861741}
+  winAmount: 1
 --- !u!1001 &1277855332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48259,6 +48261,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   s: {fileID: 232861741}
+  winAmount: 1
 --- !u!1001 &1567725540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62135,6 +62138,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   s: {fileID: 232861741}
+  winAmount: 1
 --- !u!4 &1994719241 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bee2cfd0fbd53964dad8d5ea0f385c2c, type: 3}
@@ -66375,6 +66379,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   s: {fileID: 232861741}
+  winAmount: 1
 --- !u!4 &2096036142 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bee2cfd0fbd53964dad8d5ea0f385c2c, type: 3}
