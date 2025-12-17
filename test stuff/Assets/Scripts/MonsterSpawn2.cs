@@ -62,7 +62,7 @@ public class MonsterSpawn2 : MonoBehaviour
         if (instance == null)
             return;
 
-        float newSpeed = Mathf.Max(instance.minSpeed, instance.baseSpeed - itemCount / 2f); // calculating speed with item count
+        float newSpeed = Mathf.Max(instance.minSpeed, instance.baseSpeed + itemCount / 2f); // calculating speed with item count
         instance.newSpeed(newSpeed, itemCount); // update speed
     }
 
