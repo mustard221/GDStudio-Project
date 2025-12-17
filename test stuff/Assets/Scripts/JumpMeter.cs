@@ -9,11 +9,11 @@ public class JumpMeter : MonoBehaviour
 {
     [Header("Jumpscare Settings")]
     public PostProcessVolume settings; // assign all in inspector
-    public GameObject jumpscare;
-    public Transform cameraTransf;
-    public Transform enemyTransf;
+    public GameObject jumpScare;
+    bool monsterColliding = false;
     public float dirLimit = 15f;
     public AudioSource breathing;
+    public AudioSource monsterS;
 
     [Header("Health Settings")]
     public int CurrentHealth = 100;
@@ -37,7 +37,7 @@ public class JumpMeter : MonoBehaviour
 
     private void Update() // checking each frame if player is facing enemy
     {
-        if (IsFacingEnemy())
+        if (monsterColliding == true && settings != null)
         {
             if (dying == null && breath == null)
                 dying = StartCoroutine(HealthLoss());
@@ -64,18 +64,23 @@ public class JumpMeter : MonoBehaviour
         }
     }
 
-    private bool IsFacingEnemy() 
+    public void OnCollisionEnter(Collision collide) // checking if monster collided 
     {
-        if (cameraTransf == null || enemyTransf == null)
-            return false;
+        if (collide.gameObject.name == "monster")
+        {
+            monsterColliding = true;
+            monsterS.PlayOneShot(monsterS.clip);
+            Debug.Log("monster colliding");
+        }
+    }
 
-        if (!enemyTransf.gameObject.activeInHierarchy)
-            return false;
-
-        Vector3 enemyDist = (enemyTransf.position - cameraTransf.position).normalized;
-        float angle = Vector3.Angle(cameraTransf.forward, enemyDist); // calculating if set camera angle is facing enemy
-        return angle < dirLimit; 
-
+    public void OnCollisionExit(Collision collide) // checking if monster stopped colliding
+    {
+        if (collide.gameObject.name == "monster")
+        {
+            monsterColliding = false;
+            Debug.Log("monster not colliding");
+        }
     }
 
     #endregion
@@ -83,24 +88,24 @@ public class JumpMeter : MonoBehaviour
     #region Health Stuff
     private IEnumerator HealthLoss() // draining health when facing enemy
     {
-        while (IsFacingEnemy() && settings != null)
+        while (monsterColliding == true && settings != null)
         {
-            ApplyDamage(1);
+            ApplyDamage(10);
             if (CurrentHealth <= MinHealth) break;
             Debug.Log("health draining");
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.001f);
         }
         dying = null;
     }
 
     private IEnumerator Filling() // bar fill when looking away from enemy
     {
-        while (!IsFacingEnemy() && settings != null)
+        while (monsterColliding == false && settings != null)
         {
             ApplyRegen(1);
             if (CurrentHealth >= MaxHealth) break;
             Debug.Log("health filling");
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(1f);
         }
         regen = null;
     }
@@ -147,7 +152,7 @@ public class JumpMeter : MonoBehaviour
 
         UpdateVignette();
 
-        if (CurrentHealth == 1 && previous > 0)
+        if (CurrentHealth <= 5 && previous > 0)
         {
             OnHealthZero();
         }
@@ -174,8 +179,8 @@ public class JumpMeter : MonoBehaviour
     private void OnHealthZero() // triggering jumpscare on zero health
     {
         Debug.Log("health at 0");
-        if (jumpscare != null)
-            jumpscare.SetActive(true);
+        if (jumpScare != null)
+            jumpScare.SetActive(true);
         onHealthZero?.Invoke();
 
         settings.profile.TryGetSettings(out Vignette vignette);
@@ -184,6 +189,7 @@ public class JumpMeter : MonoBehaviour
         grain.intensity.value = 1f;
         grain.size.value = 1f;
         vignette.intensity.value = 1f;
+        breathing.volume = 0f;
 
     }
 }

@@ -16689,7 +16689,6 @@ GameObject:
   - component: {fileID: 322091286}
   - component: {fileID: 322091287}
   - component: {fileID: 322091288}
-  - component: {fileID: 322091289}
   m_Layer: 0
   m_Name: monster
   m_TagString: Untagged
@@ -16958,21 +16957,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.1664784, y: 8.113347, z: 5.5275397}
   m_Center: {x: 0.00000018660734, y: -0.5357528, z: 2.7259}
---- !u!114 &322091289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322091279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d4dbc2ed22b95d429e2ba2c87046b4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 871244405}
-  audioSource: {fileID: 237799035}
-  sound: {fileID: 8300000, guid: 661bab07cc99bb94da8874cd1cdd8e15, type: 3}
 --- !u!1001 &328050898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70113,6 +70097,7 @@ GameObject:
   - component: {fileID: 1340724884}
   - component: {fileID: 1340724882}
   - component: {fileID: 1340724891}
+  - component: {fileID: 1340724892}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -70140,13 +70125,13 @@ MonoBehaviour:
   lookXLimit: 45
   rotationX: 0
   maxHealth: 100
-  currentHealth: 0
+  currentHealth: 100
   playerCamera: {fileID: 1911635385}
-  jumpMeter: {fileID: 1377159787}
+  jumpMeter: {fileID: 1340724892}
   enteredTrigger:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 871244405}
+      - m_Target: {fileID: 237799034}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -70158,10 +70143,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 237799035}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
+      - m_Target: {fileID: 871244405}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -70187,7 +70172,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1358585499}
-  - {fileID: 1377159789}
   - {fileID: 1911635382}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
@@ -70345,6 +70329,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1340724892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340724881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0f805ce7c584f438eafd6f17183370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 59172508}
+  jumpScare: {fileID: 871244405}
+  dirLimit: 15
+  breathing: {fileID: 72684925}
+  monsterS: {fileID: 322091281}
+  CurrentHealth: 100
+  MaxHealth: 100
+  MinHealth: 0
+  onHealthZero:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1344212279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71432,90 +71439,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7a19abac8ce3d4f46bcac4070c66673c, type: 3}
   m_PrefabInstance: {fileID: 1372982936}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1377159786
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1377159789}
-  - component: {fileID: 1377159787}
-  m_Layer: 5
-  m_Name: Vignette Handler
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1377159787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377159786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea0f805ce7c584f438eafd6f17183370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settings: {fileID: 59172508}
-  jumpscare: {fileID: 871244405}
-  cameraTransf: {fileID: 1911635382}
-  enemyTransf: {fileID: 322091280}
-  dirLimit: 15
-  breathing: {fileID: 72684925}
-  CurrentHealth: 100
-  MaxHealth: 100
-  MinHealth: 0
-  onHealthZero:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 871244405}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 237799035}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
---- !u!224 &1377159789
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377159786}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -921.20935}
-  m_LocalScale: {x: 1.934947, y: 1.9349469, z: 1.934947}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1340724883}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 49.88266, y: 268.99634}
-  m_SizeDelta: {x: 167.1768, y: 31.8205}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1377333857
 PrefabInstance:
   m_ObjectHideFlags: 0

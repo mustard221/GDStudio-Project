@@ -107,12 +107,13 @@ public class Character2 : MonoBehaviour
         currentHealth -= damage;
         jumpMeter.SetHealth(currentHealth);
 
-        if (currentHealth == 1) 
+        if (currentHealth <= 5) 
         {
             enteredTrigger.Invoke();
-            deadSound.Play();
+            deadSound.PlayOneShot(deadSound.clip);
             insideTrigger = true;
             print("oh no i am dead");
+            canMove = false;
         }
     }
 }
